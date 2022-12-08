@@ -3,7 +3,7 @@ const handle = async (request) => {
     headers: {
       "Content-Type": "text/plain; charset=utf-8",
       "Cache-Control": "no-cache, no-store, must-revalidate",
-      "Content-Security-Policy": "upgrade-insecure-requests",
+      "Content-Security-Policy": "default-src * data: 'unsafe-eval' 'unsafe-inline' always",
       "X-Did-You-Know": "You can use \"curl -4\" or \"curl -6\" to get either IP address!",
       "X-View-Source": "https://github.com/davelevine/checkip",
     },
