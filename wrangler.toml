@@ -1,5 +1,15 @@
-name = "simpip"
+name = "ipcheck"
 type = "javascript"
-account_id = "bd1a636a30a817137ce1e91c9e407373"
-zone_id = "01417e1ce40cd6425a9ff87225bbd63a"
-route = "simpip.com/*"
+
+account_id = "f3c91ba96531ef2a0d935cb0e25a2f2d"
+compatibility_date = "2021-12-29"
+
+workers_dev = true
+zone_id = "f8d5f5eef0247f78626b9bac4d047a48"
+route = "checkip.wired.io/*"
+
+[dev]
+ip = "0.0.0.0"
+local_protocol = "http"
+port = 8787
+upstream_protocol = "https"
