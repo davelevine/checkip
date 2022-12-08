@@ -5,7 +5,7 @@ const handle = async (request) => {
       "Cache-Control": "no-cache, no-store, must-revalidate",
       "Content-Security-Policy": "upgrade-insecure-requests",
       "X-Did-You-Know": "You can use \"curl -4\" or \"curl -6\" to get either IP address!",
-      "X-View-Source": "https://jrvs.io/simpip",
+      "X-View-Source": "https://github.com/davelevine/checkip",
     },
   };
 
